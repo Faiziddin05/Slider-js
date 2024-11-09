@@ -15,7 +15,7 @@ function showSlide(n) {
         slideIndex = 1;
     }
     for (let i = 0; i < slides.length; i++){
-        slides[i].style.display = 'none     '
+        slides[i].style.display = 'none'
     }
     for (let i = 0; i < slides.length; i++) {
         dots[i].classList.remove('active');
